@@ -1,0 +1,79 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "14978894",
+      "name": "fx-market",
+      "font_class": "fx-market",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "14978895",
+      "name": "fx-vip",
+      "font_class": "fx-vip",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "14978896",
+      "name": "fx-user-name",
+      "font_class": "fx-user-name",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "14978897",
+      "name": "fx-sku",
+      "font_class": "fx-sku",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "14978899",
+      "name": "fx-sys-set",
+      "font_class": "fx-sys-set",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "14978900",
+      "name": "fx-cash-contract",
+      "font_class": "fx-cash-contract",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "14978902",
+      "name": "fx-total-balance",
+      "font_class": "fx-total-balance",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "14978905",
+      "name": "fx-purchases",
+      "font_class": "fx-purchases",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "14978906",
+      "name": "fx-preview",
+      "font_class": "fx-preview",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "14978908",
+      "name": "fx-cash-list",
+      "font_class": "fx-cash-list",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    }
+  ]
+}
