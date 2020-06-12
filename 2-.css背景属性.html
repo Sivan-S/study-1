@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 背景颜色 background-color: */
+        div {
+            width: 500px;
+            height: 500px;
+            /* background-color: transparent;透明的 */
+            background-color: #337799;
+        }
+
+        /* 背景图片background-image: url() */
+        div {
+            width: 500px;
+            height: 500px;
+            background-image: url(images/Snipaste_2020-06-08_21-37-38.png);
+        }
+
+        /* 背景平铺 默认情况下是平铺的 background-repeat: repeat ;no-repeat; repeat-x（y;(沿着x（y轴平铺) */
+        div {
+            background-repeat: no-repeat;
+        }
+
+        /* 图片和背景颜色都可 颜色在最下面 */
+        /* 背景图片位置控制 background-position:x y; 可用方位名词和精确单位 */
+        /* 方位名词前后没有关系只写一个方位 第二个参数默认居中对齐 */
+        div {
+            background-position: left bottom;
+        }
+
+        /* 精确位置x表示离左边距离 y表示离右边距离 前后顺序不能反 */
+        div {
+            background-position: 20px 50px;
+        }
+
+        /* 位置也可以混合来写 精确+方位有顺序关系 */
+        div {
+            background-position: center 50px;
+        }
+
+
+        /* 背景固定（背景附着） background-attachment: :scroll滚动 | fixed固定;(默认是滚动的) */
+        div {
+            background-attachment: fixed;
+        }
+
+        /* 背景颜色半透明 background:rgba(0,0,0,0.3); a是alpha;  a值越小越透明  取值0-1之间(不影响盒子内内容) */
+        div {
+            /* background: rgba(0, 0, 0, 0.3); 0可以不写 */
+            background: rgba(0, 0, 0, .3);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>宋俊杰</div>
+
+</body>
+
+</html>

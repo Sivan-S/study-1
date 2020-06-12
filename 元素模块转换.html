@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div块级元素转换行内元素   display:inline */
+        div {
+            width: 200px;
+            height: 100px;
+            display: inline;
+            background-color: #333;
+        }
+
+        /* span行内元素转块级元素 display:block */
+        span {
+            width: 200px;
+            height: 100px;
+            background-color: pink;
+            display: block;
+        }
+
+        /* a行内元素转行内块元素display:inline-block */
+        a {
+            width: 200px;
+            height: 100px;
+            background-color: rebeccapurple;
+            display: inline-block;
+        }
+
+        a:hover {
+            color: skyblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div>块级元素转行内元素</div>
+    <div>块级元素转行内元素</div>
+
+    <span>行内元素转块级元素</span>
+    <span>行内元素转块级元素</span>
+
+    <a href="">转行内块元素</a>
+    <a href="">转行内块元素</a>
+
+</body>
+
+</html>
