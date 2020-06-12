@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div ul .red {
+            color: red;
+        }
+
+        div ul li {
+            color: gray;
+        }
+
+        /* 选择未访问的链接 a:link */
+        a:link {
+            color: #333333;
+            text-decoration: none;
+        }
+
+        /* 选择则已访问的链接 */
+        a:visited {
+            color: lightcoral;
+        }
+
+        /* 选择鼠标悬停的链接 */
+        a:hover {
+            color: lightskyblue;
+        }
+
+        input {
+            columns: pink;
+        }
+
+        input:focus {
+            color: red;
+            background: lime;
+        }
+    </style>
+</head>
+
+
+zhongguo <input type="text">
+
+<body>
+    <div class="pic"></div>
+    <p class="red"></p>
+    <p>今天</p>
+    <div>
+        <p>
+        <ul class="ww">
+            <li class="red">红色</li>
+            <li class="gray">灰色</li>
+        </ul>
+        </p>
+        <p><a href="#">宋俊杰</a></p>
+        <p><a href="http://www.baidu.com">百度</a></p>
+    </div>
+    <div></div>
+    <p></p>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css三大特性</title>
+
+    <style>
+        /* <!-- 层叠性；继承性；优先级。 -->
+           <!-- 层叠性，就近原则，离结构近 --> */
+        /* div {
+            color: red;
+            font-size: 12px;
+        }
+
+        div {
+            color: pink;
+        } */
+        /* 继承性；子承父业 */
+        div {
+            color: pink;
+            font-size: 18px;
+        }
+
+        p {
+            color: red;
+        }
+
+        .qq {
+            color: green
+        }
+
+        #ww {
+            color: black;
+        }
+
+        /* 优先级 !important>style>id>类选择>标签选择>通配符选择和继承 */
+    </style>
+</head>
+
+<body>
+    <!-- <div>
+        层叠性
+    </div> -->
+    <div>
+        继承性
+        <p class="qq" id="ww" style="color: blue;"">继承性</p>
+    </div>
+    <!-- 权重叠加  不会进位 -->
+</body>
+
+</html>
